@@ -46,8 +46,6 @@ def ledToggle():
         GreenledButton["text"]="Turn Green LED on"
 
 
-#RedledButton['text']=(selection)
-
 def close():
     RPi.GPIO.cleanup()
     win.destroy()
